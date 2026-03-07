@@ -10,6 +10,14 @@
 
 [![View Notebook](https://img.shields.io/badge/View-Notebook-orange)](https://nbviewer.org/github/VarshaNayak18/retail-sales-analysis/blob/main/notebooks/sales_analysis.ipynb)
 
+## Quick Summary
+
+- Analyzed ~10,000 retail transactions from the Superstore dataset.
+- Explored sales performance across regions, categories, and time.
+- Identified loss-making product segments and discount impact on profit.
+- Built visualizations using Python (Pandas, Matplotlib, Seaborn).
+- Performed additional analysis using SQL with SQLite.
+
 ## 📑 Table of Contents
 
 - [Project Overview](#-project-overview)
@@ -63,13 +71,13 @@ Top performing sub-categories
 
 * ### Sales by Category
 
-Analyzed total sales across product categories to identify top-performing segments.
+      Analyzed total sales across product categories to identify top-performing segments.
 
 ![Sales by Category](images/sales_by_category.png)
 
 * ### Profit Analysis
 
-Evaluated profitability across categories and regions.
+      Evaluated profitability across categories and regions.
 
 ![Profit by Region](images/profit_by_region.png)
 
@@ -77,25 +85,25 @@ Evaluated profitability across categories and regions.
 
 * ### Loss-Causing Sub-Categories
 
-Identified product sub-categories generating negative profit.
+      Identified product sub-categories generating negative profit.
 
 ![Loss-Causing Sub-Categories](images/loss_causing_sub_categories.png)
 
 * ### Sales vs Profit Relationship
 
-Investigated how sales volume relates to profitability.
+      Investigated how sales volume relates to profitability.
 
 ![Sales vs Profit](images/sales_vs_profit.png)
 
 * ### Discount Impact on Profit
 
-Analyzed how higher discounts affect profit margins.
+      Analyzed how higher discounts affect profit margins.
 
 ![Discount vs Profit](images/discount_vs_profit.png)
 
 * ### Correlation Analysis
 
-Used a heatmap to visualize relationships between numerical variables.
+      Used a heatmap to visualize relationships between numerical variables.
 
 ![Correlation Heatmap](images/correlation_heatmap.png)
 
@@ -124,9 +132,9 @@ retail-sales-analysis
 ├── sql
 │ └── analysis_queries.sql
 │
+├── .gitignore
 ├── README.md
-├── requirements.txt
-└── sales.db
+└── requirements.txt
 ```
 
 ## 🚀 How to Run the Project
@@ -141,7 +149,7 @@ retail-sales-analysis
 
 3. Open the Jupyter notebook
 
-   notebook/sales_analysis.ipynb
+   notebooks/sales_analysis.ipynb
 
 4. Run all cells.
 
