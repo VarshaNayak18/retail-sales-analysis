@@ -8,7 +8,7 @@
 
 ![Dataset](https://img.shields.io/badge/Dataset-Superstore-blue)
 
-[![View Notebook](https://img.shields.io/badge/View-Notebook-orange)](nbviewer_link)
+[![View Notebook](https://img.shields.io/badge/View-Notebook-orange)](https://nbviewer.org/github/VarshaNayak18/retail-sales-analysis/blob/main/notebook/sales_analysis.ipynb)
 
 ## 📑 Table of Contents
 
