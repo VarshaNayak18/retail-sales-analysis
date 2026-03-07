@@ -8,7 +8,7 @@
 
 ![Dataset](https://img.shields.io/badge/Dataset-Superstore-blue)
 
-[![View Notebook](https://img.shields.io/badge/View-Notebook-orange)](https://nbviewer.org/github/VarshaNayak18/retail-sales-analysis/blob/main/notebook/sales_analysis.ipynb)
+[![View Notebook](https://img.shields.io/badge/View-Notebook-orange)](https://nbviewer.org/github/VarshaNayak18/retail-sales-analysis/blob/main/notebooks/sales_analysis.ipynb)
 
 ## 📑 Table of Contents
 
@@ -107,39 +107,41 @@ Used a heatmap to visualize relationships between numerical variables.
 
 ## 📂 Project Structure
 
+```
 retail-sales-analysis
 │
 ├── data
-│   └── superstore.csv
-|
+│ └── superstore.csv
+│
 ├── images
 │
 ├── notebooks
-│   └── sales_analysis.ipynb
+│ └── sales_analysis.ipynb
 │
 ├── scripts
-│   └── load_to_sqlite.py
+│ └── load_to_sqlite.py
 │
 ├── sql
-│   └── analysis_queries.sql
+│ └── analysis_queries.sql
 │
 ├── README.md
-└── requirements.txt
+├── requirements.txt
 └── sales.db
+```
 
 ## 🚀 How to Run the Project
 
 1. Clone the repository
 
-git clone https://github.com/VarshaNayak18/retail-sales-analysis
+   git clone https://github.com/VarshaNayak18/retail-sales-analysis
 
 2. Install dependencies
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 3. Open the Jupyter notebook
 
-notebook/sales_analysis.ipynb
+   notebook/sales_analysis.ipynb
 
 4. Run all cells.
 
